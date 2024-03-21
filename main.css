@@ -1,0 +1,447 @@
+
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0px;  
+  }
+
+  body {
+    margin: 10px;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .banner{
+    background-color: rgba(21, 102, 109, 0.635);
+    height: 500px;
+    text-align: center;
+    color: white;
+  }
+
+  .banner img{
+    background-color: rgba(21, 102, 109, 0.635);
+    height: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+  }
+
+
+.info{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.image{
+  width: 400px;
+  margin: auto;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.logo a{
+  font-size: 20px;
+  font-weight: 0px;
+  float: left;
+  font-family: courier;
+  color: #ffffff;
+  z-index: 1;
+  }
+  
+.menu{
+    float: right;
+  }
+
+  
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #393E46;
+    z-index: 1;
+  }
+
+  nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  nav ul li{
+    float: left;
+    
+  }
+
+  nav ul li a{
+    color: rgb(241, 236, 236);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    
+
+  }
+  nav ul li a:hover{
+    text-decoration: underline;
+    
+  }
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.kolom .deskripsi {
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 40px;
+    color: #00ADB5;
+    width: 100%;
+    line-height: 80px;
+    text-align: right;
+    text-align: left;
+    margin: 50px;
+}
+
+h2{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Arial Narrow';
+    color: #222831;
+    margin-right: auto;
+    margin-bottom: 100px 30px;
+    margin-top: 5px;
+    padding: 3px 10px 3px 10px;
+    text-align: justify;
+    margin-left: 75px;
+    height: 10px;
+}
+
+a.tbl-pink{
+    background: #00ADB5;
+    border-radius: 35px;
+    margin-bottom: 100px;
+    padding: 10px 30px 10px 30px;
+    color: #ecf0f1;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover{
+    background: #085e97;
+    text-decoration: none;
+}
+
+a.tbl-biru{
+    background: #085e97;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 15px 20px 15px 20px;
+    color: #FFE2E2;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background: #8785A2;
+    text-decoration: none;
+
+}
+
+p{
+    float: center;
+    margin: 20px 20px 20px 20px;
+    padding: 40px 20px 10px 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    height: 110px;
+    text-align: left;
+}
+
+
+.Kontak img{
+  width: 50px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+  
+}
+.Kontak{
+  text-align: center;
+  color: #393E46;
+  margin-top: 90px;
+  
+}
+.tif{
+  text-align:center;
+  color:#00ADB5;
+  margin-top: 20px;
+  align-content: center;
+  background-color: #393E46;
+  width: 100%;
+  height: 80px;
+  margin: 50px 20px;
+  display:flex;
+}
+i{
+  float: center;
+  margin: 20px 10px 20px 25px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  height: 50px;
+  margin-left: 400px;
+}
+
+-----------------------------------------------------
+.Hobby{
+  text-align:center;
+  color:#00ADB5;
+  margin-top: 30px;
+
+}
+
+h1 {
+  color: #3498db;
+  text-align: center;
+  margin-top: 50px;
+}
+#home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kiri,.tengah, .kanan{
+  width: 30%;
+  height: 400px;
+  background-color: #bfc5cf;
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin: 20px 70px 20px 50px;
+  border-radius: 10px;
+  float: left;
+}
+
+h3{
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Arial Narrow';
+  color:#070707;
+  margin: 20px 0px 20px 0px;
+}
+
+r{
+  float: center;
+  margin: 20px 5px 20px 5px;
+  padding: 10px 0px 10px 0px;
+}
+
+.kiri:hover, .tengah:hover, .kanan:hover{
+background-color: #00ADB5;
+color:#ecf0f1;
+}
+
+----------------------------------------------
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #393E46;
+  color: #ffffff;
+  padding: 1em;
+  text-align: center;
+}
+
+.colored-title {
+  color: #EEEEEE; 
+}
+
+.BiodataDiri{
+  text-align:center;
+  color:#f8fafa;
+  margin-top: 30px;
+  align-content: center;
+  margin: 50px 30px 50px 20px;
+}
+h4{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Arial Narrow';
+  color:#070707;
+  margin: 20px 0px 20px 0px;
+}
+
+b{
+  float: center;
+  margin: 50px 90px 50px 90px;
+  margin-top: 50px;
+  padding: 10px 5px 10px 5px;
+  text-align: right;
+  text-align: left;
+  border-radius: 20px;
+  padding-top: 10px;
+  background-color: #393E46;
+  color: #ffffff;
+}
+
+.Nama{
+  width: 700px;
+  height: 420px;
+  background-color: #bfc5cf;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 420px;
+  margin: 50px 30px 50px 80px;
+  border-radius: 50px;
+  float: left;
+}
+
+.Pendidikan{
+  text-align:center;
+  color:#00ADB5;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  align-content: center;
+}
+
+h1 {
+  color: #3498db;
+  text-align: center;
+}
+
+.Dasar,.Menengah, .Atas{
+  width: 400px;
+  height: 420px;
+  background-color: #bfc5cf;
+  text-align: center;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-left: 20px;
+  margin: 80px 70px 60px 55px;
+  border-radius: 5px;
+  float: left;
+}
+
+
+h6{
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Arial Narrow';
+  color:#070707;
+  margin: 20px 10px 20px 10px;
+  align-items: center;
+}
+
+r{
+  float: center;
+  margin: 20px 5px 20px 5px;
+  padding: 10px 0px 10px 0px;
+}
+
+.Dasar:hover, .Menengah:hover, .Atas:hover{
+background-color: #00ADB5;
+color:#ecf0f1;
+}
+
+-------------------------
+
+.prestasi{
+  text-align:center;
+  color:#00ADB5;
+  margin-top: 30px;
+  align-content: center;
+}
+
+-----------------------
+.Galeri {
+  position: relative; 
+  margin: 100px 50px 10px 50px;
+  z-index: 1;
+}
+.judul {
+    position: fixed;;
+    top: 10px;
+    width: 100%; 
+    background-color: #ffffff; 
+    text-align: center; 
+    padding: 10px 20px 10px 20px;
+    z-index: 999;
+    margin: 0px 0px 300px 0px;
+  }
+
+
+.penutup {
+  position: fixed 0px 900px; 
+  bottom: 100px; 
+  width: 100%; 
+  background-color: #393E46; 
+  color: #ecf0f1;
+  text-align: center;
+  padding: 0px; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1; 
+  
+}
+
+.foto{
+  width: 30%;
+  height: 400px;
+  background-color: #bfc5cf;
+  text-align: center;
+  padding-top: 80px;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin: 50px 70px 50px 70px;
+  border-radius: 20px;
+  float: left;
+  display: block;
+  margin-bottom: 20px;
+}
+.foto img {
+  display: block; /* Agar gambar memiliki margin */
+  margin-bottom: 10px; /* Memberikan jarak bawah antara gambar dan paragraf */
+}
+
+.foto p {
+  margin: 10pxs; /* Menghilangkan margin pada paragraf */
+}
+.tutup{
+  margin-top: 20px;
+}
+.foto:hover{
+  background-color: #00ADB5;
+  color:#ecf0f1;
+  }
